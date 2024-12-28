@@ -1,0 +1,17 @@
+{
+  "name": "razorpay_payment",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "build": "echo \"Netlify functions don't require build\"",
+    "start": "node src/app.js",
+    "deploy": "netlify deploy"
+  },
+  "dependencies": {
+    "@vendia/serverless-express": "^4.12.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "razorpay": "^2.9.5"
+  }
+}
